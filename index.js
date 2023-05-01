@@ -1,5 +1,3 @@
-
-
 function newImage(url, left, bottom) { 
     let pixels = document.createElement('img')
     pixels.src = url
@@ -52,3 +50,5 @@ newImage('assets/pine-tree.png', 450, 200)
 newItem('assets/sword.png', 500, 405)
 newItem('assets/shield.png', 165, 185)
 newItem('assets/staff.png', 600, 100)
+
+// I left commented out codes since this is an ongoing project, and I would like to remind myself how I made it work (for the mean time) :)
